@@ -4,6 +4,8 @@ Nota del "traductor": Solo una traduccion a esta version derivada de los pixel d
 
 Esta version tiene una historia y musica muy epica jeje.
 
+Pequeña Postdata: el juego inicia en koreano (tutorial), solo es que salgan y vuelva a entrar y en la esquina superior izquierda aparece el boton para cambiar el idioma, al lado del engranage de configuracion.
+
 dejo una version Readme de gpt que explica un poco más:
 
 # Girls-Frontline Pixel Dungeon — Español 🇪🇸
