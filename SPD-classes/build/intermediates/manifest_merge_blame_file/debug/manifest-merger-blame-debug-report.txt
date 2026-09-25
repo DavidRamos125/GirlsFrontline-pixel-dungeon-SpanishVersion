@@ -1,0 +1,21 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.watabou" >
+4
+5    <uses-sdk android:minSdkVersion="21" />
+5-->C:\Users\USUARIO\Desktop\gpd\GirlsFrontline-pixel-dungeon\SPD-classes\src\main\AndroidManifest.xml
+6
+7    <uses-permission android:name="android.permission.VIBRATE" />
+7-->C:\Users\USUARIO\Desktop\gpd\GirlsFrontline-pixel-dungeon\SPD-classes\src\main\AndroidManifest.xml:4:5-65
+7-->C:\Users\USUARIO\Desktop\gpd\GirlsFrontline-pixel-dungeon\SPD-classes\src\main\AndroidManifest.xml:4:22-63
+8
+9    <uses-feature android:glEsVersion="0x00020000" />
+9-->C:\Users\USUARIO\Desktop\gpd\GirlsFrontline-pixel-dungeon\SPD-classes\src\main\AndroidManifest.xml:6:5-7:43
+9-->C:\Users\USUARIO\Desktop\gpd\GirlsFrontline-pixel-dungeon\SPD-classes\src\main\AndroidManifest.xml:7:9-41
+10
+11    <application android:label="@string/app_name" >
+11-->C:\Users\USUARIO\Desktop\gpd\GirlsFrontline-pixel-dungeon\SPD-classes\src\main\AndroidManifest.xml:9:5-12:19
+11-->C:\Users\USUARIO\Desktop\gpd\GirlsFrontline-pixel-dungeon\SPD-classes\src\main\AndroidManifest.xml:10:9-41
+12    </application>
+13
+14</manifest>

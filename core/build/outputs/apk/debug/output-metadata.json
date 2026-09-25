@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.gfpixel.gfpixeldungeon.indev",
+  "variantName": "processDebugResources",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionCode": 500,
+      "versionName": "0.4.9-A-indev",
+      "outputFile": "core-debug.apk"
+    }
+  ]
+}

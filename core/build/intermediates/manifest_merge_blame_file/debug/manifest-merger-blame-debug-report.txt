@@ -1,0 +1,84 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.gfpixel.gfpixeldungeon.indev"
+4    android:installLocation="auto"
+5    android:versionCode="500"
+6    android:versionName="0.4.9-A-indev" >
+7
+8    <uses-sdk android:minSdkVersion="21" />
+8-->C:\Users\USUARIO\Desktop\gpd\GirlsFrontline-pixel-dungeon\core\src\main\AndroidManifest.xml
+9
+10    <uses-feature android:glEsVersion="0x00020000" />
+10-->C:\Users\USUARIO\Desktop\gpd\GirlsFrontline-pixel-dungeon\core\src\main\AndroidManifest.xml:8:2-9:37
+10-->C:\Users\USUARIO\Desktop\gpd\GirlsFrontline-pixel-dungeon\core\src\main\AndroidManifest.xml:9:3-35
+11
+12    <!--
+13         Note that the game doesn't truly support small screen resolutions,
+14		it instead forces downscaling to work on these displays.
+15    -->
+16    <supports-screens
+16-->C:\Users\USUARIO\Desktop\gpd\GirlsFrontline-pixel-dungeon\core\src\main\AndroidManifest.xml:13:2-17:33
+17        android:largeScreens="true"
+17-->C:\Users\USUARIO\Desktop\gpd\GirlsFrontline-pixel-dungeon\core\src\main\AndroidManifest.xml:16:3-30
+18        android:normalScreens="true"
+18-->C:\Users\USUARIO\Desktop\gpd\GirlsFrontline-pixel-dungeon\core\src\main\AndroidManifest.xml:15:3-31
+19        android:smallScreens="true"
+19-->C:\Users\USUARIO\Desktop\gpd\GirlsFrontline-pixel-dungeon\core\src\main\AndroidManifest.xml:14:3-30
+20        android:xlargeScreens="true" />
+20-->C:\Users\USUARIO\Desktop\gpd\GirlsFrontline-pixel-dungeon\core\src\main\AndroidManifest.xml:17:3-31
+21
+22    <uses-permission android:name="android.permission.VIBRATE" />
+22-->[:SPD-classes] C:\Users\USUARIO\Desktop\gpd\GirlsFrontline-pixel-dungeon\SPD-classes\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-66
+22-->[:SPD-classes] C:\Users\USUARIO\Desktop\gpd\GirlsFrontline-pixel-dungeon\SPD-classes\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-63
+23
+24    <application
+24-->C:\Users\USUARIO\Desktop\gpd\GirlsFrontline-pixel-dungeon\core\src\main\AndroidManifest.xml:19:2-41:16
+25        android:allowBackup="true"
+25-->C:\Users\USUARIO\Desktop\gpd\GirlsFrontline-pixel-dungeon\core\src\main\AndroidManifest.xml:23:3-29
+26        android:backupAgent="com.gfpixel.gfpixeldungeon.BackupHandler"
+26-->C:\Users\USUARIO\Desktop\gpd\GirlsFrontline-pixel-dungeon\core\src\main\AndroidManifest.xml:25:3-65
+27        android:debuggable="true"
+28        android:fullBackupOnly="true"
+28-->C:\Users\USUARIO\Desktop\gpd\GirlsFrontline-pixel-dungeon\core\src\main\AndroidManifest.xml:24:3-32
+29        android:icon="@mipmap/ic_launcher"
+29-->C:\Users\USUARIO\Desktop\gpd\GirlsFrontline-pixel-dungeon\core\src\main\AndroidManifest.xml:20:3-37
+30        android:label="@string/app_name"
+30-->C:\Users\USUARIO\Desktop\gpd\GirlsFrontline-pixel-dungeon\core\src\main\AndroidManifest.xml:21:3-35
+31        android:theme="@android:style/Theme.Black.NoTitleBar" >
+31-->C:\Users\USUARIO\Desktop\gpd\GirlsFrontline-pixel-dungeon\core\src\main\AndroidManifest.xml:22:3-56
+32        <activity
+32-->C:\Users\USUARIO\Desktop\gpd\GirlsFrontline-pixel-dungeon\core\src\main\AndroidManifest.xml:26:3-37:14
+33            android:name="com.gfpixel.gfpixeldungeon.GirlsFrontlinePixelDungeon"
+33-->C:\Users\USUARIO\Desktop\gpd\GirlsFrontline-pixel-dungeon\core\src\main\AndroidManifest.xml:28:4-72
+34            android:alwaysRetainTaskState="true"
+34-->C:\Users\USUARIO\Desktop\gpd\GirlsFrontline-pixel-dungeon\core\src\main\AndroidManifest.xml:29:4-40
+35            android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout"
+35-->C:\Users\USUARIO\Desktop\gpd\GirlsFrontline-pixel-dungeon\core\src\main\AndroidManifest.xml:31:4-97
+36            android:label="@string/app_name"
+36-->C:\Users\USUARIO\Desktop\gpd\GirlsFrontline-pixel-dungeon\core\src\main\AndroidManifest.xml:27:4-36
+37            android:launchMode="singleInstance"
+37-->C:\Users\USUARIO\Desktop\gpd\GirlsFrontline-pixel-dungeon\core\src\main\AndroidManifest.xml:30:4-39
+38            android:screenOrientation="nosensor" >
+38-->C:\Users\USUARIO\Desktop\gpd\GirlsFrontline-pixel-dungeon\core\src\main\AndroidManifest.xml:32:4-40
+39            <intent-filter>
+39-->C:\Users\USUARIO\Desktop\gpd\GirlsFrontline-pixel-dungeon\core\src\main\AndroidManifest.xml:33:4-36:20
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\Users\USUARIO\Desktop\gpd\GirlsFrontline-pixel-dungeon\core\src\main\AndroidManifest.xml:34:5-57
+40-->C:\Users\USUARIO\Desktop\gpd\GirlsFrontline-pixel-dungeon\core\src\main\AndroidManifest.xml:34:13-54
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\Users\USUARIO\Desktop\gpd\GirlsFrontline-pixel-dungeon\core\src\main\AndroidManifest.xml:35:5-65
+42-->C:\Users\USUARIO\Desktop\gpd\GirlsFrontline-pixel-dungeon\core\src\main\AndroidManifest.xml:35:15-62
+43            </intent-filter>
+44        </activity>
+45
+46        <!-- Workaround for a bug on Galaxy S8: max aspect must be specified or it defaults to 1.86 -->
+47        <meta-data
+47-->C:\Users\USUARIO\Desktop\gpd\GirlsFrontline-pixel-dungeon\core\src\main\AndroidManifest.xml:40:3-71
+48            android:name="android.max_aspect"
+48-->C:\Users\USUARIO\Desktop\gpd\GirlsFrontline-pixel-dungeon\core\src\main\AndroidManifest.xml:40:14-47
+49            android:value="10.0" />
+49-->C:\Users\USUARIO\Desktop\gpd\GirlsFrontline-pixel-dungeon\core\src\main\AndroidManifest.xml:40:48-68
+50    </application>
+51
+52</manifest>

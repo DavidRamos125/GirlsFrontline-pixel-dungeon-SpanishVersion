@@ -1,0 +1,17 @@
+apply plugin: 'com.android.library'
+android {
+    compileSdkVersion 29
+    buildToolsVersion '29.0.3'
+    ndkVersion '21.3.6528147'
+    defaultConfig {
+        minSdkVersion 21
+    }
+    task ndkBuild(type: Exec) {
+        description "builds JNI libs from source. " +
+                "This requires the Android NDK and is optional as precompiled libs are provided."
+
+        def root = project(':SPD-classes').projectDir
+    }
+}
+dependencies {
+}
